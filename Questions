@@ -1,0 +1,36 @@
+QUESTION 2
+a)	What is SPV and how does it work? 4 points.
+Simple Payment Verification (SPV) is a mechanism outlined in the original Bitcoin Whitepaper that enables low-end wallets to verify whether a contract was used in Bitcoin and a payment was made.
+SPV allows you to validate your transactions, without worrying about the transactions of anybody else. 
+SPV provides the two essential benefits: 
+1.	ensures that your transactions are in a block
+2.	Confirms that additional blocks are added to the blockchain.
+SPV working can be defined as follows:
+1.	Using Remote Procedure Call (RPC) a smartphone links to a node.
+2.	The smartphone then asks the node for a series of public keys to give it a list of transactions.
+3.	The node, then checks for any transactions matching the specified public keys and returns them to the computer.
+
+b)	What was the blocksize debate about and how was it resolved? 2 points
+The size of a block places a cap on the amount of transactions that can be performed every second by the Bitcoin network and hence can be seen as inhibiting the capacity of the network to expand. The network gets congested as blocks full, and transaction fees increase sharply.
+The subsequent elevated fees and delays in transaction delivery is seen to threaten the key services underpinning BTC, with those in the community worried that network congestion and rising transmission rates will render Bitcoin obsolete as a medium of trade.
+The block size debate was resolved in November 2017, as a consortium of developers and business members in the Bitcoin ecosystem agreed to carry out an upgrade to the Bitcoin specification known as SegWit2X. 
+SegWit2X suggested two improvements to the Bitcoin protocol: 
+1.	distinguishing witness details from user data ("SegWit"); and 
+2.	increasing the block size from 1 MB to 2 MB ("2X").
+
+c)	What is the main use case of a private blockchain? 2 points
+
+While blockchain technology is still a new technology and there is still growth of the decentralized network, several businesses are experimenting with blockchain technologies. Private or Permissioned blockchains are the way to go with most companies, as they usually only include trusted industry partners.
+
+USE CASE:
+
+The oil majors Shell and BP are creating a decentralized network for the trading of energy resources based on blockchain. The group involves a variety of other energy firms, dealerships, and banks. The aim is to remove the need to use paper trade contracts and documents of activities, and use use smart contracts to regulate energy transactions. The group has received considerable involvement from the largest players in the energy industry since the project was unveiled in early 2018. 
+
+The private blockchain's goal is to reduce the regulatory burden on the participating company and render oil trading more effective. Having transactions transparent, verifiable and traceable would allow energy trading networks more secure. Having obtained the requisite regulatory approvals, the company would operate as a different agency.
+
+QUESTION 5
+Briefly state your opinion regarding the utilization of Proof of Stake consensus with respect to the following Ethereum based types of networks: 1) public and 2) private. Do you believe that this depends on the application of interest (e.g., application meant for payment vs application focusing on data management? (Note: Indicative length is 225-300 words)
+The utilization of POS in Ethereum based Public Blockchain is very simple Proof of Stake (POS) are validators, rather than miners. The validators then bet on the blocks they hope should be placed to the row. When the block is inserted the validators will earn a block incentive equal to their stake. It is quite better than POW because there is no race for guessing the hashes quite low consumption of electricity and it is quite same from the POW consensus the chances of forgery is very low it also maintains control of a number of validators, and anybody possessing the base token Ethereum for the network will become a validator by submitting a different form of transaction that locks their ETH into a deposit. The cycle of forming and settling on new blocks is then carried out by means of a consensus algorithm so it is very useful for public blockchain.
+In terms of Ethereum based Private Blockchain hundreds of Fortune 500 companies are investigating Ethereum 's ability for private blockchain applications. It is supposed to be a consensus for the private blockchain as well because of its security and trustlessness.
+I don’t believe that it depends on the application of interest that application based on whatever information whether it is focusing on payments or data management it is important. So it must be protected from forgery, loss or to be in wrong hands.
+
